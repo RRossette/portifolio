@@ -1,12 +1,14 @@
+import Hero from "../src/sections/Hero/Hero";
 
 
 function App() {
 
-  return (
-    <>
-      
-    </>
-  )
-}
-
-export default App
+    return (
+      <>
+        <Hero/>
+      </>
+    )
+  }
+  
+  export default App
+  
