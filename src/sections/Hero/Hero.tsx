@@ -5,8 +5,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 
-const StyledHero = styled("div")(() => ({
-  backgroundColor: "#000000",
+const StyledHero = styled("div")(({theme}) => ({
+  backgroundColor: theme.palette.primary.contrastText,
   height: "100vh",
   display: "flex",
   justifyContent: "center",
@@ -48,7 +48,7 @@ const Hero = () => {
               <Grid justifyContent="center" display= "flex"size={{xs:12, md:6, lg:6}}>
                 <Button
                   variant="contained"
-                  color="secondary"
+                  color="primary"
                   startIcon={<EmailIcon />}
                 >
                   Contact me
