@@ -25,11 +25,11 @@ const StyledImg = styled("img")(() => ({
 }));
 
 const Hero = () => {
-  let heroRef = useRef<HTMLDivElement | null>(null);
+  const heroRef = useRef<HTMLDivElement | null>(null);
 
   return (
     <>
-      <AnimatedBackground/>
+      <AnimatedBackground heroRef={heroRef} />
       <HeroContainer ref={heroRef}>
         <Container>
           <Grid container spacing={3} justifyContent="center">

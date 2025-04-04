@@ -14,9 +14,9 @@ const StyledButton: React.FC<StyledButtonProps> = ({ children }) => {
     fontcolor: theme.palette.secondary.dark,
     justifyContent: "center",
     alignItems: "center",
-    minWidth: "200px",  // Define um tamanho mínimo
-    width: "15vw",  // 20% da largura da tela
-    height: "auto",  // Altura ajustável automaticamente
+    minWidth: "200px",  
+    width: "15vw",  
+    height: "auto", 
     padding: "5px 15px",
     gap:"10px",
     transition: "background-color 0.3s",
